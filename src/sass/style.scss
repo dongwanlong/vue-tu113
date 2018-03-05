@@ -1,0 +1,52 @@
+@import "./reset.scss";
+@import "./iconfont.scss";
+@import "./variable.scss";
+
+body,html{
+    height: 100%;
+}
+
+//功能色系
+.color-success{color: #67C23A}
+.color-success-bg{background-color: #67C23A}
+.color-warning{color: #E6A23C}
+.color-warning-bg{background-color: #E6A23C}
+.color-danger{color: #F56C6C}
+.color-danger-bg{background-color: #F56C6C}
+.color-info{color: #909399}
+.color-info-bg{background-color: #909399}
+
+//灰色系
+.gray-1{color: #303133}
+.gray-1-bg{background-color: #303133}
+.gray-2{color: #606266}
+.gray-2-bg{background-color: #606266}
+.gray-3{color: #909399}
+.gray-3-bg{background-color: #909399}
+.gray-4{color: #C0C4CC}
+.gray-4-bg{background-color: #C0C4CC}
+
+/* 通用布局类 */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 结构布局类 */
+.view{
+    display: flex;
+    flex-direction: column;
+}
+.context{
+    flex: 1;
+}
+.breadcrumb{
+    height: 50px;
+    text-indent: 10px;
+}
+.form-wrap{
+    width: 500px;
+    margin: 50px auto;
+}
+
